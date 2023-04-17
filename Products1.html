@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ecommerce Webpage</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script> 
+</head>
+<body>
+
+<section id="header">
+         <img src="C:\Users\soumya\Desktop\NewProject\Images\585990234f6ae202fedf28cf (Custom).png" style="height:65px;width: 140px;padding: 2px 5px;">
+        <div>
+            <ul id="navbar">
+                <li><a onclick="window.location.href='Index.html';" >Home</a></li>
+                <li><a class="active">Shop</a></li> 
+                <li><a href="">Blog</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </div>    
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+
+        </div>
+</section>
+<section id="prodetails" class="section-p1">
+    <div class="single-main-image">
+        <img src="C:\Users\soumya\Desktop\NewProject\Images\A53200000_01_Style Shot.jpg" width="100%" id="mainimg" alt="">
+          <div class="small-img-grp">
+              <div class="small-img-col" >
+                  <img src="C:\Users\soumya\Desktop\NewProject\Images\A53200000_02_Front.jpg" width="100%" class="Imgs">
+              </div>
+              <div class="small-img-col">
+                  <img src="C:\Users\soumya\Desktop\NewProject\Images\A53200000_04_Side.jpg"width="100%" class="Imgs">
+              </div>
+              <div class="small-img-col">
+                  <img src="C:\Users\soumya\Desktop\NewProject\Images\A53200000_08_Model Front.jpg" width="100%" class="Imgs">
+              </div>
+          </div>    
+    </div>
+    <div class="single-pro-details">
+        <h2>IMAGES MEN'S SOLID BLUE SHIRT COLLAR JACKET</h2>
+        <h4>Mens Wear</h4>
+        <h3>Colour</h3>
+        <span>Marlin Blue</span>
+        <h2>$120</h2>
+        <select>
+            <option>Select Size</option>
+            <option>Large</option>
+            <option>Medium</option>
+            <option>Small</option>
+        </select>
+         <input type="number" value="1" class="Info">
+         <button>Add to cart</button>
+         <h4 class="Details">Products Details</h4>
+         <p>
+Give off a breezy weekend vibe by wearing the Levi's® Crew Neck Tee. <br>This regular fit premium material t-shirt has a crew neck and short sleeves. Pair this t-shirt with denim shorts to look cool.
+Style#169600646</p>
+</div>
+</section>
+  <section id="banner" class="section-m2" >
+        <p class="x1">  Levis & Strauss.Co</p>
+        <p class="x2">Up to <span>40% OFF</span>-All T-Shirts and Accessories</p>
+    </section>
+      
+  <footer class="section-p1">
+      <div class="col">
+        <img src="https://lh3.googleusercontent.com/drive-viewer/AAOQEOR8c4jA4EblWJsAewBH1ipxTMTdweJDUIZPXvRxaadi9eHOBfyL7JO7nHOK011tLSY32QmMWpyl2JTE9I21AoQzL7ao=s2560" style="height: 100px;width: 180px;padding:10px;">
+        <h4 style="padding:5px 0px">Contact</h4>
+        <p><strong>Address : </strong> 562 Wellington Road, Street 32,San Francisco</p>
+        <p><strong>Phone : </strong> +01 2222 365</p> 
+        <p><strong>Hours : </strong> 10:00 AM - 6:00 PM </p>         
+      </div>
+      <div class="col">
+          <h4 style="padding:5px 0px">About</h4>
+          <a href="#">About Us</a>
+          <a href="#">Delivery Information</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms and Conditions</a>
+          <a href="#">Contact Us</a>
+      </div>
+       <div class="col">
+          <h4 style="padding:5px 0px">About</h4>
+          <a href="#">My Account</a>
+          <a href="#">Sign In</a>
+          <a href="#">View Cart</a>
+          <a href="#">My Wishlist</a>
+          <a href="#">Help</a>
+      </div>
+      <div class="col Install">
+          <h4 style="padding:5px 0px">Install App</h4>
+          <p>From App Store Or Google play</p>
+          <div class="row">
+              <img style="height:67px;margin-bottom: 13px;" src="https://lh3.googleusercontent.com/drive-viewer/AAOQEOTmc1cwoNcafdAexD2uxiVvwCXTvAbn4PD1hRz-7CVBqGto9a-drS2abOdF3h7SOiFr-463tdYLCJqHSSg5kbMeVYvwPQ=s2560">
+              <img src="https://lh3.googleusercontent.com/drive-viewer/AAOQEOQB9wsSOJo5Rqa0CSkL6YfaumNN3111jKWXBe444SfxB72cmwLL3SS__TACFqRczow8h0DiSyW-FjBu3vHsEFc3dqtyGg=s2560">
+          </div>
+      </div>
+  </footer> 
+
+<script type="text/javascript" src="script.js"> 
+var MainImg = document.getElementById("mainimg");
+var smallImg = document.getElementByClassName("Imgs");
+
+smallImg[0].onclick=function () {
+    MainImg.src = smallImg[0].src;
+}
+
+smallImg[1].onclick=function () {
+    MainImg.src = smallImg[1].src;
+}
+
+smallImg[2].onclick=function () {
+    MainImg.src = smallImg[2].src;
+}
+
+smallImg[3].onclick=function () {
+    MainImg.src = smallImg[3].src;
+}
+</script>
+
+</body>
+</html>
